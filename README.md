@@ -1,3 +1,14 @@
+## Hello world
+
+This repo is for use only within Flick to come to terms with Ruby concepts
+
+`/concepts` contains explanatory content
+`/exercises` contains files demonstrating the above concepts, and is a playground to experiment in
+`/tests` contains failing tests against the relevant file in `/exercises`.
+
+It is up to the dev viewing this to amend the code in `/exercises` to get all tests passing.
+Files in the `/test` directory should not need any editing.
+
 ## Run the tests:
 ```
 gem install minitest
@@ -6,6 +17,7 @@ gem install minitest
 Run the tests from the tests directory using the following command:
 
 ```
+cd /tests
 ruby <filename>_test.rb
 ```
 
